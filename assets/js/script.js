@@ -42,7 +42,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Hema Kalyan Portfolio";
+            document.title = "Farah Adam Portfolio";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
