@@ -309,19 +309,19 @@ header .navbar ul li a:hover {
   background-color: #0685da;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #007bb6;
 }
 .social-icons a.twitter:hover {
-  background-color: #00aced;
+  background-color: #007bb6;
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
 }
 .social-icons a.dev:hover {
-  background-color: #070707;
+  background-color: #007bb6;
 }
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  background-color: #007bb6;
 }
 /* social icons end */
 
@@ -1295,7 +1295,9 @@ header .navbar ul li a:hover {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: #fff;
+  background-color: #0685da;
+
 }
 .footer .credit {
   padding: 1rem 0 0 0;
