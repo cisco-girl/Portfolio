@@ -947,7 +947,7 @@ header .navbar ul li a:hover {
   min-height: 90vh;
 }
 .certification h2 {
-  color: #fff;
+  color: rgba(146, 161, 176, 0.3);
   padding: 1rem;
 }
 .certification .heading span {
