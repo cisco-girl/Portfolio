@@ -938,6 +938,124 @@ header .navbar ul li a:hover {
 
 
 
+
+
+/* certification section starts */
+.certification {
+  /* background: #010124; */
+  background: linear-gradient(to bottom, #000031, #00002c);
+  min-height: 90vh;
+}
+.certification h2 {
+  color: #fff;
+  padding: 1rem;
+}
+.certification .heading span {
+  color: rgb(255, 230, 0);
+}
+.certification .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem;
+}
+.certification .box-container .box {
+  flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+  padding-bottom:2rem;
+}
+.certification .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.certification .box-container .box .content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 85%;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+}
+.certification .box-container .box .content .tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+  background: #ffd900;
+}
+.certification .box-container .box .content .tag h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin: auto;
+}
+.certification .box-container .box:hover .content {
+  top: 100%;
+}
+.certification .desc {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.certification .desc p {
+  font-size: 1.5rem;
+}
+.certification .viewall {
+  display: flex;
+  justify-content: center;
+}
+.certification .viewall .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: 0.5em;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border: 2px solid #fff;
+  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+  text-align: center;
+}
+.certification .viewall .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: "Nunito", sans-serif;
+}
+.certification .viewall .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.certification .viewall .btn:hover {
+  background: #fff;
+  color: #000;
+}
+.certification .viewall .btn:hover i {
+  transform: translateX(5px);
+}
+/* certification section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* experience section starts */
 .experience .timeline {
   position: relative;
@@ -1118,7 +1236,7 @@ header .navbar ul li a:hover {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: rgb(238,238,238);
 }
 .footer .box-container {
   display: flex;
@@ -1184,7 +1302,7 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  color: #fff;
+  color: #00012B;
   border-top: 0.1rem solid #fff3;
 }
 .footer .credit a {
